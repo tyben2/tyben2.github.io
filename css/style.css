@@ -18,19 +18,24 @@ header, nav, main, footer {
 
 /* Header styles */
 header { 
-	background-color: #000;
+	background-color:  #004d38
+;
 	color: BlanchedAlmond;
 	min-height: 100px;
 	margin-top: 60px;
 }
 
-header h1 {
+header h1 {font-family: 'Anton', sans-serif; 
+
+
 	padding: 40px 60px;
 }
 
 
 /* Nav styles */
-nav { background-color: #333; }
+nav { background-color:  #003325
+
+; }
 nav ul { 
 	display: flex;
 	justify-content: flex-end;
@@ -47,7 +52,8 @@ main {
 	grid-template-columns: 60% 40%;
 }
 
-section {
+section {font-family: 'Vibes', cursive;
+
 	padding: 40px 60px;
 }
 
@@ -65,7 +71,8 @@ aside {
 
 /* Footer styles */
 footer { 
-	background-color: #000;
+	background-color: #003325
+;
 	color: white;
 	text-align: center;
  }
